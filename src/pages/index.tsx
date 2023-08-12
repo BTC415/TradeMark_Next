@@ -78,7 +78,7 @@ const Index = () => {
         </div>
       </div>
       <div className='grid grid-cols-2 w-full h-[690px]'>
-        <div className='flex flex-col gap-8 justify-center items-start pl-40 w-full h-full bg-cover bg-center bg-[url(https://realtymogul.brightspotgocdn.com/dims4/default/f49e06c/2147483647/strip/true/crop/1918x1439+0+571/resize/2880x2160!/format/webp/quality/90/?url=https%3A%2F%2Fcdn.realtymogul.com%2Fstatic%2Fmedia%2FHP_more_boat.3a4e9dee.jpg)]'>
+        <div className='flex flex-col gap-8 justify-center items-start pl-40 w-full h-full bg-cover bg-center bg-[url(/invest-ad.webp)]'>
           <h1 className='w-2/3 font-OpenSans text-[36px] text-white'>You deserve more than just an investment platform</h1>
           <h2 className='font-OpenSans text-[16px] text-white'>Join RealtyMogul and Navigate Through Uncertain Markets.</h2>
           <NavButton className="bg-[#176db6] text-white hover:bg-[#1d89ff] mt-20 hover:text-white">View Investments</NavButton>
