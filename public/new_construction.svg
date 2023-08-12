@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52 (66869) - http://www.bohemiancoding.com/sketch -->
+    <title>desktop/icon/large/symbols/IO_Overview/New_Construction</title>
+    <desc>Created with Sketch.</desc>
+    <g id="desktop/icon/large/symbols/IO_Overview/New_Construction" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group" transform="translate(7.000000, 4.000000)" stroke="#202020" stroke-width="1.5">
+            <g id="project-blueprint-buildings">
+                <circle id="Oval" cx="9.375" cy="50.625" r="7.5"></circle>
+                <path d="M1.875,50.625 L1.875,9.375 C1.875,5.23286438 5.23286438,1.875 9.375,1.875 C13.5171356,1.875 16.875,5.23286438 16.875,9.375 L16.875,50.625" id="Shape"></path>
+                <path d="M9.375,58.125 L54.375,58.125 C56.4460678,58.125 58.125,56.4460678 58.125,54.375 L58.125,15 C58.125,12.9289322 56.4460678,11.25 54.375,11.25 L16.875,11.25" id="Shape"></path>
+                <path d="M30,46.875 L45,46.875 L45,22.5 C45,21.4644661 44.1605339,20.625 43.125,20.625 L31.875,20.625 C30.8394661,20.625 30,21.4644661 30,22.5 L30,46.875 Z" id="Shape"></path>
+                <path d="M37.5,30 L45,30" id="Shape"></path>
+                <path d="M37.5,37.5 L45,37.5" id="Shape"></path>
+                <path d="M48.75,46.875 L45,46.875" id="Shape"></path>
+                <path d="M30,46.875 L26.25,46.875" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

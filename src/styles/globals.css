@@ -1,27 +1,98 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import 'https://cloud.typography.com/7455036/7907792/css/fonts.css';
+@import 'https://use.typekit.net/yqf3dfe.css';
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/font/OpenSans-VariableFont_wdth,wght.ttf');
+}
+@font-face {
+    font-family: 'ADM';
+    src: url('/font/Action Display Demo.ttf');
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+    font-family: 'merlinIcons';
+    src: url('/merlinIcons.b90fbd7b.ttf');
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@font-face {
+    font-family: 'monthstage';
+    src: url('/OnelySans.ttf');
+}
+
+@font-face {
+    font-family: 'GothamSSm-Bold';
+    src: url('/font/GothamSSm-Bold.otf');
+}
+
+@font-face {
+    font-family: 'GothamSSm-Book';
+    src: url('/font/GothamSSm-Book.otf');
+}
+
+@font-face {
+    font-family: 'GothamSSm-Light';
+    src: url('/font/GothamSSm-Light.otf');
+}
+
+@font-face {
+    font-family: 'monthstage';
+    src: url('/font/GothamSSm-Medium.otf');
+}
+
+@font-face {
+    font-family: 'Superior Title Black Regular';
+    src: url('/font/SuperiorTitleTRIAL-Regular-BF642f8c4ba8c96.otf');
+}
+
+@keyframes anim1 {
+    0% {
+        outline-offset: 0px;
+        outline-width: 1px;
+        outline-color: #16a34aff;
+    }
+
+    100% {
+        outline-offset: 30px;
+        outline-width: 16px;
+        outline-color: #16a34a00;
+    }
+}
+
+@keyframes mypulse {
+    0% {
+        transform: scale(0.8);
+    }
+
+    30% {
+        transform: translate(0px, -10px) scale(1.1) rotate(-5deg);
+    }
+
+    60% {
+        transform: scale(0.8);
+    }
+
+    100% {
+        transform: scale(0.8);
+    }
+}
+
+@keyframes pulse2 {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(.8) rotate(-1deg);
+        opacity: .7;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
